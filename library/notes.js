@@ -3,7 +3,7 @@ const fs = require('fs');
 
 
 const validateNoteType = newNote => {
-    if (!newNote.title || typeof newNote.title !== 'string!') {
+    if (!newNote.title || typeof newNote.title !== 'string') {
         return false;
     }
     if (!newNote.text || typeof newNote.text !== 'string') {
