@@ -11,7 +11,7 @@ const routesHTML = require('./routes/routeshtml');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join (_dirname, 'public')));
+app.use(express.static(path.join (__dirname, 'public')));
 
 app.use('/api', routesAPI);
 app.use('/', routesHTML);

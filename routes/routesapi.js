@@ -3,11 +3,10 @@ const uuid = require('uuid');
 const path = require('path');
 const fs = require ('fs');
 
-let {notes}= require('../data/db.json');
+let {notes}= require('../db/db.json');
 const { validateNoteType, addNewNote } = require ('../library/notes');
 
 router.get('/notes', (req, res) => {
-   // console.log(notes);
    res.json(notes);
 });
 
@@ -18,7 +17,7 @@ router.post('/notes', (req, res) => {
         text: req.body.text
     }
     if (!validateNoteType(newNote)) {
-        return res.status(400).send('Please enter both a text title and body content for a valid note')
+        return res.status(400).send('Add text, title, and body content to your note!')
     }
     else { addNewNote(newnote, notes);
     
@@ -26,4 +25,6 @@ router.post('/notes', (req, res) => {
     }
  });
  
+ module.exports = router;
+
  
