@@ -25,5 +25,23 @@ router.post("/notes", (req, res) => {
     res.json(notes);
   }
 });
-// come back to add delete when working
+router.delete('/notes/:id', (req, res) => {
+    const exists = notes.some(notes => notes.id === req.params.id);
+    if (exists) {
+        notes = notes.filter(note => note.id !== req.params.id);
+        fs.writeFileSync(
+                path.join(__dirname, '../db/db.json'),
+                JSON.stringify({ notes }, null, 2)
+
+              );
+
+        res.json(notes);
+    } else {
+        res.status(400).send("No matching note found, sorry!")
+
+    }
+
+
+
+});
 module.exports = router;
