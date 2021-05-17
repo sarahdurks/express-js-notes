@@ -6,8 +6,8 @@ const path =require('path');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-const routesAPI = require('./routes/routesAPI/routesApi');
-const routesHTML = require('./routes/routesAPI/htmlRoutes');
+const routesAPI = require('./routes/routesapi');
+const routesHTML = require('./routes/routeshtml');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
