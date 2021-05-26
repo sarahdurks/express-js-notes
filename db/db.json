@@ -1,24 +1,24 @@
 {
   "notes": [
     {
-      "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      "id": "123e4567-e89b-12d3-a456-426614174000",
       "title": "Hackathon hello:world",
-      "text": "Hack to the moon with Berkeley April 16-18"
+      "text": "Prep for hack to the moon with Berkeley June 16-18"
     },
     {
-      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "id": "123e4567-e89b-12d3-a456-426614174001",
       "title": "Finish Bootcamp Homework",
-      "text": "Homework due April 18"
+      "text": "Homework due June 5"
     },
     {
-      "id": "1f9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
-      "title": "Hackathon hello:world",
-      "text": "Hack to the moon with Berkeley April 16-18"
+      "id": "123e4567-e89b-12d3-a456-426614174002",
+      "title": "Call mom",
+      "text": "Say hi and check in"
     },
     {
-      "id": "9f1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-      "title": "Finish Bootcamp Homework 2",
-      "text": "Homework due April 18 2"
+      "id": "123e4567-e89b-12d3-a456-426614174003",
+      "title": "Go grocery shopping",
+      "text": "List is in phone"
     }
   ]
 }
