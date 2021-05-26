@@ -9,7 +9,7 @@ router.get('/notes', (req, res) => {
   console.log(notes);
   res.json(notes);
 });
-
+// add new note with uuid
 router.post('/notes', (req, res) => {
   const newNote = {
     id: uuid.v4(),
@@ -19,13 +19,13 @@ router.post('/notes', (req, res) => {
   if (!validateNoteType(newNote)) {
     return res
       .status(400)
-      .send("Add text, title, and body content to your note!");
+      .send("Add text, title, and body content to create your note!");
   } else {
     addNewNote(newNote, notes);
     res.json(notes);
   }
 });
-
+// delete note by ID
 router.delete('/notes/:id', (req, res) => {
     const exists = notes.some(notes => notes.id === req.params.id);
     if (exists) {
