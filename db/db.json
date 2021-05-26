@@ -9,6 +9,16 @@
       "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
       "title": "Finish Bootcamp Homework",
       "text": "Homework due April 18"
+    },
+    {
+      "id": "1f9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      "title": "Hackathon hello:world",
+      "text": "Hack to the moon with Berkeley April 16-18"
+    },
+    {
+      "id": "9f1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "title": "Finish Bootcamp Homework 2",
+      "text": "Homework due April 18 2"
     }
   ]
 }
