@@ -52,5 +52,5 @@ This is an application that can be used to write and save notes. This applicatio
 > THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column    
 
 ### Resources 🤝
-- [Heroku Deployment Documentation](https://devcenter.heroku.com/categories/deployment)
+- [A lot of Heroku Deployment Documentation](https://devcenter.heroku.com/categories/deployment)
 - [UUID Documentaton](https://www.npmjs.com/package/uuid)
