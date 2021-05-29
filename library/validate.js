@@ -24,4 +24,4 @@ const addNewNote = (newNote, notes) => {
 };
 
 
-module.exports = { validateNoteType, addNewNote}
+module.exports = { validateNoteType, addNewNote} 
