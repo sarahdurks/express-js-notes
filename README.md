@@ -1,47 +1,41 @@
 ![Frame 29](https://user-images.githubusercontent.com/77648727/114291845-787ce400-9a3f-11eb-9748-fc2b7db553ce.png)
 
+# Express.js Notetaker 🤓
 
-## Name
+This is an application that can be used to write and save notes. This application uses an Express.js backend and will save and retrieve note data from a JSON file. The application was deployed using heroku [here](https://note-taker-sarah.herokuapp.com/)
 
-### Express.js Notetaker 🤓
+### Built With / Using 🧰
 
-Create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
-
-#### Built With 🧰
-
-- [x] Express.js]
+- [x] Express.js
 - [x] HTML
+- [x] JSON
 - [x] CSS
 - [x] UUID
+- [x] Nodemon
 
-### Work Completed
-- JSON file on the back end that stores and retrieve notes
-- The following HTML routes were created:
+### Work Completed 🔨
+- JSON file on the back end that stores and enables retrieval of notes
+- HTML routes were created: GET /notes returns the notes.html file. GET * returns the index.html file.
+- API routes were  created: GET /api/notes reads the db.json file and return all saved notes as JSON. POST /api/notes receives a new note to save on the request body, add it to the db.json file, and then return the new note to the client.
 
-    - GET /notes returns the notes.html file.
+### Future work
+- [ ] Address usability aspect of trash can icons/notes sidebar. What is clickable and what deletes UI/UX wise not ideal.
 
-    - GET * returns the index.html file.
+### Visuals 👀
 
-The following API routes were  created:
-
-    - GET /api/notes read the db.json file and return all saved notes as JSON.
-
-    - POST /api/notes  receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client
-
-#### Visual
-![image](https://user-images.githubusercontent.com/77648727/114291553-41a5ce80-9a3d-11eb-8aa5-23fa9077ee76.png)
+#### From assignment:
 ![image](https://user-images.githubusercontent.com/77648727/114291556-49657300-9a3d-11eb-9218-894bc02b7d8d.png)
 
+#### Live implementation:
+<img width="900" alt="Screen Shot 2021-05-26 at 3 25 51 PM" src="https://user-images.githubusercontent.com/77648727/119739176-afb02480-be36-11eb-9729-0bd7ed79d8a0.png">
 
-   
-#### User Story 📖
 
+### User Story 📖
 > AS A small business owner           
 > I WANT to be able to write and save notes      
-> SO THAT I can organize my thoughts and keep track of > tasks I need to complete    
+> SO THAT I can organize my thoughts and keep track of tasks I need to complete    
 
-#### Acceptance Criteria ✅
-
+### Acceptance Criteria ✅
 > GIVEN a note-taking application    
 > WHEN I open the Note Taker    
 > THEN I am presented with a landing page with a link to a notes page    
@@ -56,6 +50,6 @@ The following API routes were  created:
 > WHEN I click on the Write icon in the navigation at the top of the page    
 > THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column    
 
-## Resources 🤝
-
+### Resources 🤝
+- [Heroku Deployment Documentation](https://devcenter.heroku.com/categories/deployment)
 - [UUID Documentaton](https://www.npmjs.com/package/uuid)
