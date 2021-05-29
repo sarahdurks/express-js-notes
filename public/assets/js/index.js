@@ -33,7 +33,11 @@ const saveNote = (note) => fetch("/api/notes", {
   },
   body: JSON.stringify(note),
 });
-const deleteNote = (id) => fetch(`/api/notes/${id}`, {
+const deleteNote = (id) => fetch(`/api/notes/$ {
+    id
+  }
+
+  `, {
   method: "DELETE",
   headers: {
     "Content-Type": "application/json",
@@ -88,6 +92,8 @@ const handleNewNoteView = (e) => {
   activeNote = {};
   renderActiveNote();
 };
+// shows hides button to save
+// already does string validation in a way
 const handleRenderSaveBtn = () => {
   if(!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
