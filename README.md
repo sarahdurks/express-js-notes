@@ -20,6 +20,7 @@ This is an application that can be used to write and save notes. This applicatio
 
 ### Future work
 - [ ] Address usability aspect of trash can icons/notes sidebar. What is clickable and what deletes UI/UX wise not ideal.
+- [ ] Figure out what to do with git issues after updating heroku app name. 
 
 ### Visuals 👀
 
