@@ -18,6 +18,9 @@ This is an application that can be used to write and save notes. This applicatio
 - HTML routes were created: GET /notes returns the notes.html file. GET * returns the index.html file.
 - API routes were  created: GET /api/notes reads the db.json file and return all saved notes as JSON. POST /api/notes receives a new note to save on the request body, add it to the db.json file, and then return the new note to the client.
 
+### Future work
+- [ ] Address usability aspect of trash can icons/notes sidebar. What is clickable and what deletes UI/UX wise not ideal.
+
 ### Visuals 👀
 
 #### From assignment:
